@@ -277,12 +277,13 @@ div#slider div img {
 
 .pricelist{
   width:800px;
-  margin:auto;
+  margin:80px auto;
 }
 .columns {
   float: left;
   width: 33.3%;
   padding: 8px;
+  margin-bottom:20px;
 }
 
 .harga {
@@ -316,7 +317,7 @@ div#slider div img {
 }
 
 .button {
-  background-color: #4CAF50;
+  background-color: rgb(187, 17, 54);
   border: none;
   color: white;
   padding: 8px 22px;
