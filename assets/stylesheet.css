@@ -59,6 +59,7 @@ header a{
 /** Footer **/
  
 footer{
+  margin-top: 64px;
     padding: 20px 20px;
     background-color: black;
 }
@@ -75,6 +76,8 @@ footer{
 }
 
 .section-item{
+    padding-top: 25px;
+    padding-bottom: 20px;
     float: left;
     width: 25%;
 }
@@ -82,17 +85,18 @@ footer{
 .section-title h3{
     color: white;
     font-family: sans-serif;
-    font-style: italic;
-    font-weight: bold;
-    padding-bottom: 15px;
+    /* font-style: italic; */
+    font-weight: 600;
+    padding-bottom: 14px;
 }
 
 .btn-wrapper li{
     list-style: none;
     font-family: sans-serif;
-    font-size: medium;
+    font-size: 14px;
     text-decoration: none;
     color: rgb(192, 192, 192);
+    line-height: 1.7em;
 }
 
 .btn-wrapper a:hover{

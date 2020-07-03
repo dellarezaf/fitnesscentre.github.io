@@ -53,4 +53,12 @@ footer{
 .footer-bottom p{
  font-size: x-small;
 }
+
+
+}
+
+@media screen and (max-width: 880px) {
+  .right-side{
+    display: none;
+  }
 }
