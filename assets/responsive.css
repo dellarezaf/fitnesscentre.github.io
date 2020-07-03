@@ -1,6 +1,13 @@
-@media all and (max-width: 670px) {
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+    margin-bottom:25px;
+  }
+  .pricelist {
+  padding:10px 17%;
+  }
  
- /** Header & Footer*/
+  /** Header & Footer*/
  header a{
   float: none;
   display: block;
@@ -38,15 +45,4 @@ footer{
 .footer-bottom p{
  font-size: x-small;
 }
-/* ----- */
-}
-
-@media only screen and (max-width: 600px) {
-  .columns {
-    width: 100%;
-    margin-bottom:25px;
-  }
-  .pricelist {
-  padding:10px 17%;
-  }
 }
