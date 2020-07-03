@@ -1,16 +1,23 @@
-@media screen and (max-width: 600px) {
+@media all and (max-width: 670px) {
   .columns {
-    width: 50%;
+    width: 100%;
     margin-bottom:25px;
   }
+
+  .container-columns{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   .pricelist {
-  padding:10px 17%;
+    padding:10px 17%;
+    margin-bottom: 10px;
   }
  
   /** Header & Footer*/
  header a{
   float: none;
-  display: block;
+  display: inline-flex;
   text-align: left;
   background-color: rgba(210, 0, 46,1);
  }
