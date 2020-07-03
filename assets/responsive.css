@@ -10,6 +10,7 @@
   }
 
   .pricelist {
+    margin-top: 200px;
     padding:10px 17%;
     margin-bottom: 10px;
   }
@@ -59,6 +60,30 @@ footer{
 
 @media screen and (max-width: 880px) {
   .right-side{
-    display: none;
+    /* display: none; */
+  }
+
+  main .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left-side{
+    order: 1;
+    width: auto;
+    margin-top: 50px;
+    height: auto;
+  }
+
+  .right-side{
+    height: auto;
+  }
+
+  div#slider{
+    width: 80%;
+  }
+
+  .pricelist {
+    margin-top: 200px;
   }
 }
