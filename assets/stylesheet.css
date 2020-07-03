@@ -12,10 +12,17 @@ body{
 
 header{
     width: 100%;
-    background-color: rgba(210, 0, 46, 1);
+    background-color: rgb(187, 17, 54);
     position: fixed;
     top: 0;
     z-index: 10;
+}
+
+.header-left{
+    float: left;
+    height: 65px;
+    color: #fffcfd;
+    font-size: 60px;
 }
 
 .logo{
@@ -28,7 +35,7 @@ header{
 .header-right{
     float: right;
     height: 65px;
-    margin-right: 40px;
+    margin-right: 80px;
 }
 
 .header a.signup {
