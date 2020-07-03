@@ -12,7 +12,7 @@ body{
 
 header{
     width: 100%;
-    background-color: rgba(210, 0, 46, 1);
+    background-color: rgb(187, 17, 54);
     position: fixed;
     top: 0;
     z-index: 10;
