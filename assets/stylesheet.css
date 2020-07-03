@@ -44,7 +44,7 @@ header a{
     text-decoration: none;
     font-family: sans-serif;
     font-weight: bolder;
-    font-style: italic;
+    /* font-style: italic; */
     font-size: large;
     color: #FFCC01;
     padding: 0px 10px;
