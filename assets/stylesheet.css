@@ -18,6 +18,16 @@ header{
     z-index: 10;
 }
 
+.header left p{
+    color: #fffcfd;
+    font-size: 60px;
+}
+
+.header-left{
+    float: left;
+    height: 65px;
+}
+
 .logo{
     width: auto;
     height: 65px;
@@ -28,7 +38,7 @@ header{
 .header-right{
     float: right;
     height: 65px;
-    margin-right: 40px;
+    margin-right: 80px;
 }
 
 .header a.signup {
